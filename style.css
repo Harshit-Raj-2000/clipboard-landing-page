@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+:root {
+    --strongcyan: hsl(171, 66%, 44%);
+    --lightblue: hsl(233, 100%, 69%);
+    --darkgrayblue: hsl(210, 10%, 33%);
+    --grayblue: hsl(201, 11%, 66%);
+
+}
+
+body {
+    font-size: 18px;
+}
+
+header {
+    text-align: center;
+    width: 100vw;
+    height: 80vh;
+    color: var(--darkgrayblue);
+    font-weight: 600;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('./images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+}
+
+.hero-heading {
+    font-size: 3rem;
+}
+
+.small-text {
+    color: var(--grayblue);
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 53%;
+    display: inline-block;
+}
+
+.section-text {
+    margin-bottom: 70px;
+}
+
+.issue {
+    color: var(--grayblue);
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 53%;
+    display: inline-block;
+    margin-bottom: 70px;
+}
+
+.issue-1 {
+    color: var(--grayblue);
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 53%;
+    display: inline-block;
+    margin-bottom: 70px;
+}
+
+.issue-2 {
+    color: var(--grayblue);
+    font-weight: 400;
+    font-size: 1.3rem;
+    width: 53%;
+    display: inline-block;
+    margin-bottom: 70px;
+}
+
+
+
+.horizontal-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-1,
+.button-2 {
+    width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    margin: 10px;
+}
+
+.button-1:hover,
+.button-2:hover,
+.social-item:hover,
+.footer-item:hover{
+    cursor: pointer;
+}
+
+.button-1 {
+    background-color: var(--strongcyan);
+    border-bottom: 3px solid hsl(171, 86%, 27%);
+    box-shadow: 0px 10px 10px hsl(171, 86%, 27%, 0.3);
+}
+
+.button-2 {
+    background-color: var(--lightblue);
+    border-bottom: 3px solid hsl(233, 47%, 41%);
+    box-shadow: 0px 10px 10px hsl(233, 47%, 41%, 0.3); 
+}
+
+.track-snippets {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 120px;
+}
+
+.section-header {
+    color: var(--darkgrayblue);
+    font-weight: 600;
+    font-size: 1.9rem;
+    margin-bottom: 24px;
+}
+
+.feature-flex-container {
+    display: flex;
+}
+
+.feature-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.feature {
+    width: 53%;
+    min-width: 370px;
+    text-align: left;
+}
+
+.feature-heading {
+    color: var(--darkgrayblue);
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    ;
+
+}
+
+.feature-text {
+    color: var(--grayblue);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.computer-pic {
+    position: relative;
+    left: -100px;
+}
+
+.access-clipboard {
+    text-align: center;
+}
+
+.devices {
+    width: 60vw;
+    height: auto;
+}
+
+.supercharge {
+    text-align: center;
+    margin-bottom: 120px;
+    ;
+}
+
+.tool-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.tool {
+    width: 330px;
+    height: 180px;
+}
+
+.super-icon {
+    width: auto;
+    height: 32px;
+    margin-bottom: 40px;
+}
+
+.tool-head {
+    color: var(--darkgrayblue);
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+
+}
+
+.tool-text {
+    color: var(--grayblue);
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.company-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 200px;
+}
+
+.com-logo {
+    padding: 0 30px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.ios{
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.footer-section{
+    width: 100vw;
+    height: 20vh;
+    background-color: hsl(210, 10%, 33%, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px;
+}
+
+.footer-logo{
+    height: 55%;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-rows: 30px 30px;
+    grid-template-columns: 180px 180px 180px;
+}
+
+.footer-item{
+    color: hsl(210, 10%, 33%, 0.6);
+    font-weight: 400;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.footer-item-1{
+    grid-row: 1;
+}
+
+.footer-item-2{
+    grid-row: 2; 
+}
+
+.footer-item-3{
+    grid-row: 1; 
+}
+
+.footer-item-4{
+    grid-row: 2; 
+}
+.footer-item-5{
+    grid-row: 1; 
+}
+
+.social-item{
+    margin: 8px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1087px) {
+    .feature-flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .computer-pic {
+        position: static;
+        width: 80%;
+        height: auto;
+    }
+
+    .feature {
+        width: 80vw;
+        min-width: 0;
+        text-align: center;
+    }
+
+    .feature-container {
+        height: 60vh;
+        
+    }
+
+    .track-snippets {
+        margin-bottom: 50px;
+    }
+
+    .tool-container {
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .tool {
+        margin-bottom: 60px;
+        width: 80vw;
+        min-width: 250px;
+    }
+
+    .company-container {
+        flex-direction: column;
+        height: 80vh;
+        margin: 0;
+    }
+
+    .com-logo {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        height: 100vh;
+    }
+
+    .hero-heading {
+        font-size: 2rem;
+        ;
+    }
+
+    .horizontal-buttons {
+        flex-direction: column;
+    }
+
+    .small-text {
+        width: 80vw;
+        min-width: 250px;
+    }
+
+    .issue {
+        width: 80vw;
+        min-width: 250px;
+    }
+
+    .issue-1 {
+        width: 80vw;
+        min-width: 250px;
+    }
+
+    .issue-2{
+        width: 80vw;
+        min-width: 250px;
+    }
+
+    .button-1,
+    .button-2 {
+        width: 80vw;
+        min-width: 250px;
+    }
+
+    .footer-section{
+        height: 70vh;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-logo{
+        height: 13%;
+    }
+
+    .social-item{
+        margin: 15px;
+    }
+
+}
